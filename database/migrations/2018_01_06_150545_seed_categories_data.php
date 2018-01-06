@@ -34,7 +34,6 @@ class SeedCategoriesData extends Migration
 
         DB::table('categories')->insert($categories);
     }
-    }
 
     /**
      * Reverse the migrations.
